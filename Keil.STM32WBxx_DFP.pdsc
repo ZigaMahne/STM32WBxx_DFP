@@ -19,6 +19,9 @@
       Updateed Templates:
       - Added DWARF-5 debug information
       - Added generated output files
+      Package Description (pdsc):
+      - Shortened device family description
+      - Added Ddsp processor attribute
     </release>
    <release version="1.4.0" date="2023-10-30">
       Updated Pack to STM32Cube_FW_WB Firmware Package version V1.17.3
@@ -75,12 +78,11 @@
 
   <devices>
     <family Dfamily="STM32WB Series" Dvendor="STMicroelectronics:13">
-      <processor Dcore="Cortex-M4" DcoreVersion="r0p1" Dfpu="SP_FPU" Dmpu="MPU" Dendian="Configurable" Dclock="64000000"/>
+      <processor Dcore="Cortex-M4" DcoreVersion="r0p1" Dfpu="SP_FPU" Dmpu="MPU" Ddsp="DSP" Dendian="Configurable" Dclock="64000000"/>
       <book name="https://www.st.com.cn/resource/en/user_manual/um2442-description-of-stm32wb-hal-and-lowlayer-drivers-stmicroelectronics.pdf" title="STM32WBxx HAL Drivers"/>
       <book name="https://developer.arm.com/documentation/dui0553/latest" title="Cortex-M4 Generic User Guide"/>
       <description>
-Based on an Arm Cortex-CM4 core running at 64 MHz (application processor) and an Arm Cortex-CM0+ core at 32 MHz (network processor),
-STM32WB wireless microcontrollers support Bluetooth LE 5.2 and IEEE 802.15.4 wireless standards such as Zigbee and Thread.
+STM32WB MCUs with high-performance Arm Cortex-M4 core and ultra-low-power Arm Cortex-M0+ core, MPU, DSP, FPU, 80 DMIPS at 64MHz.
       </description>
 
       <!-- ************************  Subfamily 'STM32WB55'  ************************ -->
