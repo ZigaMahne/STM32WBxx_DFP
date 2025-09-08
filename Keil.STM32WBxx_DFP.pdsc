@@ -16,6 +16,9 @@
     <release version="2.0.2-dev">
       Active development ...
       Updated documentation references
+      Updateed Templates:
+      - Added DWARF-5 debug information
+      - Added generated output files
     </release>
    <release version="1.4.0" date="2023-10-30">
       Updated Pack to STM32Cube_FW_WB Firmware Package version V1.17.3
